@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Calypso';
+    src: url('fonts/Calypso.eot');
+    src: url('fonts/Calypso.eot') format('embedded-opentype'),
+         url('fonts/Calypso.woff2') format('woff2'),
+         url('fonts/Calypso.woff') format('woff'),
+         url('fonts/Calypso.ttf') format('truetype'),
+         url('fonts/Calypso.svg#Calypso') format('svg');
+}

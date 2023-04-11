@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'InterExtraLight';
+    src: url('fonts/InterExtraLight.eot');
+    src: url('fonts/InterExtraLight.eot') format('embedded-opentype'),
+         url('fonts/InterExtraLight.woff2') format('woff2'),
+         url('fonts/InterExtraLight.woff') format('woff'),
+         url('fonts/InterExtraLight.ttf') format('truetype'),
+         url('fonts/InterExtraLight.svg#InterExtraLight') format('svg');
+}

@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'CambonRegular';
+    src: url('fonts/CambonRegular.eot');
+    src: url('fonts/CambonRegular.eot') format('embedded-opentype'),
+         url('fonts/CambonRegular.woff2') format('woff2'),
+         url('fonts/CambonRegular.woff') format('woff'),
+         url('fonts/CambonRegular.ttf') format('truetype'),
+         url('fonts/CambonRegular.svg#CambonRegular') format('svg');
+}

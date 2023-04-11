@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'CambonBold';
+    src: url('fonts/CambonBold.eot');
+    src: url('fonts/CambonBold.eot') format('embedded-opentype'),
+         url('fonts/CambonBold.woff2') format('woff2'),
+         url('fonts/CambonBold.woff') format('woff'),
+         url('fonts/CambonBold.ttf') format('truetype'),
+         url('fonts/CambonBold.svg#CambonBold') format('svg');
+}

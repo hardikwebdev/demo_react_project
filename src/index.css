@@ -1,0 +1,950 @@
+@font-face {
+    font-family: 'NunitoRegular';
+    src: url('../public/fonts/Nunito/Regular/NunitoRegular.eot');
+    src: url('../public/fonts/Nunito/Regular/NunitoRegular.eot') format('embedded-opentype'),
+        url('../public/fonts/Nunito/Regular/NunitoRegular.woff2') format('woff2'),
+        url('../public/fonts/Nunito/Regular/NunitoRegular.woff') format('woff'),
+        url('../public/fonts/Nunito/Regular/NunitoRegular.ttf') format('truetype'),
+        url('../public/fonts/Nunito/Regular/NunitoRegular.svg#NunitoRegular') format('svg');
+}
+
+@font-face {
+    font-family: 'NunitoBold';
+    src: url('../public/fonts/Nunito/Bold/NunitoBold.eot');
+    src: url('../public/fonts/Nunito/Bold/NunitoBold.eot') format('embedded-opentype'),
+        url('../public/fonts/Nunito/Bold/NunitoBold.woff2') format('woff2'),
+        url('../public/fonts/Nunito/Bold/NunitoBold.woff') format('woff'),
+        url('../public/fonts/Nunito/Bold/NunitoBold.ttf') format('truetype'),
+        url('../public/fonts/Nunito/Bold/NunitoBold.svg#NunitoBold') format('svg');
+}
+
+@font-face {
+    font-family: 'AvenirRegular';
+    src: url('../public/fonts/avenir/Regular/AvenirNextLTProRegular.eot');
+    src: url('../public/fonts/avenir/Regular/AvenirNextLTProRegular.eot') format('embedded-opentype'),
+        url('../public/fonts/avenir/Regular/AvenirNextLTProRegular.woff2') format('woff2'),
+        url('../public/fonts/avenir/Regular/AvenirNextLTProRegular.woff') format('woff'),
+        url('../public/fonts/avenir/Regular/AvenirNextLTProRegular.ttf') format('truetype'),
+        url('../public/fonts/avenir/Regular/AvenirNextLTProRegular.svg#AvenirNextLTProRegular') format('svg');
+}
+
+@font-face {
+    font-family: 'AvenirExtraBold';
+    src: url('../public/fonts/avenir/ExtraBold/AvenirBlack.eot');
+    src: url('../public/fonts/avenir/ExtraBold/AvenirBlack.eot') format('embedded-opentype'),
+        url('../public/fonts/avenir/ExtraBold/AvenirBlack.woff2') format('woff2'),
+        url('../public/fonts/avenir/ExtraBold/AvenirBlack.woff') format('woff'),
+        url('../public/fonts/avenir/ExtraBold/AvenirBlack.ttf') format('truetype'),
+        url('../public/fonts/avenir/ExtraBold/AvenirBlack.svg#AvenirBlack') format('svg');
+}
+
+@font-face {
+    font-family: 'BrandonRegular';
+    src: url('../public/fonts/Brandon/Regular/BrandonTextRegular.eot');
+    src: url('../public/fonts/Brandon/Regular/BrandonTextRegular.eot') format('embedded-opentype'),
+        url('../public/fonts/Brandon/Regular/BrandonTextRegular.woff2') format('woff2'),
+        url('../public/fonts/Brandon/Regular/BrandonTextRegular.woff') format('woff'),
+        url('../public/fonts/Brandon/Regular/BrandonTextRegular.ttf') format('truetype'),
+        url('../public/fonts/Brandon/Regular/BrandonTextRegular.svg#BrandonTextRegular') format('svg');
+}
+
+@font-face {
+    font-family: 'BrandonBold';
+    src: url('../public/fonts/Brandon/Bold/BrandonTextBold.eot');
+    src: url('../public/fonts/Brandon/Bold/BrandonTextBold.eot') format('embedded-opentype'),
+        url('../public/fonts/Brandon/Bold/BrandonTextBold.woff2') format('woff2'),
+        url('../public/fonts/Brandon/Bold/BrandonTextBold.woff') format('woff'),
+        url('../public/fonts/Brandon/Bold/BrandonTextBold.ttf') format('truetype'),
+        url('../public/fonts/Brandon/Bold/BrandonTextBold.svg#BrandonTextBold') format('svg');
+}
+
+@font-face {
+    font-family: 'BrandonRegular';
+    src: url('../public/fonts/Brandon/Regular/BrandonText-Regular.eot');
+    src: url('../public/fonts/Brandon/Regular/BrandonText-Regular.eot') format('embedded-opentype'),
+        url('../public/fonts/Brandon/Regular/BrandonText-Regular.ttf') format('truetype'),
+        url('../public/fonts/Brandon/Regular/BrandonText-Regular.woff') format('woff'),
+        url('../public/fonts/Brandon/Regular/BrandonText-Regular.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'BrandonRegularItalic';
+    src: url('../public/fonts/Brandon/RegularItalic/BrandonText-RegularItalic.eot');
+    src: url('../public/fonts/Brandon/RegularItalic/BrandonText-RegularItalic.eot') format('embedded-opentype'),
+        url('../public/fonts/Brandon/RegularItalic/BrandonText-RegularItalic.ttf') format('truetype'),
+        url('../public/fonts/Brandon/RegularItalic/BrandonText-RegularItalic.woff') format('woff'),
+        url('../public/fonts/Brandon/RegularItalic/BrandonText-RegularItalic.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'BrandonLight';
+    src: url('../public/fonts/Brandon/Light/BrandonText-Light.eot');
+    src: url('../public/fonts/Brandon/Light/BrandonText-Light.eot') format('embedded-opentype'),       
+        url('../public/fonts/Brandon/Light/BrandonText-Light.ttf') format('truetype'),
+        url('../public/fonts/Brandon/Light/BrandonText-Light.woff') format('woff'),
+        url('../public/fonts/Brandon/Light/BrandonText-Light.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'BrandonThin';
+    src: url('../public/fonts/Brandon/Thin/BrandonText-Thin.eot');
+    src: url('../public/fonts/Brandon/Thin/BrandonText-Thin.eot') format('embedded-opentype'),  
+        url('../public/fonts/Brandon/Thin/BrandonText-Thin.ttf') format('truetype'),
+        url('../public/fonts/Brandon/Thin/BrandonText-Thin.woff') format('woff'),
+        url('../public/fonts/Brandon/Thin/BrandonText-Thin.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'BrandonBold';
+    src: url('../public/fonts/Brandon/Bold/BrandonText-Bold.eot');
+    src: url('../public/fonts/Brandon/Bold/BrandonText-Bold.eot') format('embedded-opentype'),  
+        url('../public/fonts/Brandon/Bold/BrandonText-Bold.ttf') format('truetype'),
+        url('../public/fonts/Brandon/Bold/BrandonText-Bold.woff') format('woff'),
+        url('../public/fonts/Brandon/Bold/BrandonText-Bold.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'CambonRegular';
+    src: url('../public/fonts/Cambon/Regular/CambonRegular.eot');
+    src: url('../public/fonts/Cambon/Regular/CambonRegular.eot') format('embedded-opentype'),
+        url('../public/fonts/Cambon/Regular/CambonRegular.woff2') format('woff2'),
+        url('../public/fonts/Cambon/Regular/CambonRegular.woff') format('woff'),
+        url('../public/fonts/Cambon/Regular/CambonRegular.ttf') format('truetype'),
+        url('../public/fonts/Cambon/Regular/CambonRegular.svg#CambonRegular') format('svg');
+}
+
+@font-face {
+    font-family: 'CambonBold';
+    src: url('../public/fonts/Cambon/Bold/CambonBold.eot');
+    src: url('../public/fonts/Cambon/Bold/CambonBold.eot') format('embedded-opentype'),
+        url('../public/fonts/Cambon/Bold/CambonBold.woff2') format('woff2'),
+        url('../public/fonts/Cambon/Bold/CambonBold.woff') format('woff'),
+        url('../public/fonts/Cambon/Bold/CambonBold.ttf') format('truetype'),
+        url('../public/fonts/Cambon/Bold/CambonBold.svg#CambonBold') format('svg');
+}
+
+@font-face {
+    font-family: 'AcmeRegular';
+    src: url('../public/fonts/acme/Regular/Acme-Regular.eot');
+    src: url('../public/fonts/acme/Regular/Acme-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../public/fonts/acme/Regular/Acme-Regular.woff2') format('woff2'),
+        url('../public/fonts/acme/Regular/Acme-Regular.woff') format('woff'),
+        url('../public/fonts/acme/Regular/Acme-Regular.ttf') format('truetype'),
+        url('../public/fonts/acme/Regular/Acme-Regular.svg#Acme') format('svg');
+}
+
+
+.font-NunitoRegular {
+    font-family: 'NunitoRegular';
+}
+
+.font-NunitoBold {
+    font-family: 'NunitoBold';
+}
+
+.font-AvenirRegular {
+    font-family: 'AvenirRegular';
+}
+
+.font-AvenirExtraBold {
+    font-family: 'AvenirExtraBold';
+}
+
+.font-BrandonRegular {
+    font-family: 'BrandonRegular';
+}
+
+.font-BrandonRegularItalic {
+    font-family: 'BrandonRegularItalic';
+}
+
+.font-BrandonLight {
+    font-family: 'BrandonLight';
+}
+
+.font-BrandonThin {
+    font-family: 'BrandonThin';
+}
+
+.font-BrandonBold {
+    font-family: 'BrandonBold';
+}
+
+.font-CambonRegular {
+    font-family: 'CambonRegular';
+}
+
+.font-CambonBold {
+    font-family: 'CambonBold';
+}
+
+.font-AcmeRegular {
+    font-family: 'AcmeRegular';
+}
+
+
+.cus-auth-input .MuiOutlinedInput-notchedOutline {
+    top: 0px !important;
+    border-radius: 10px !important;
+    border: 1px solid #323232 !important;
+}
+
+.search .MuiInputLabel-outlined.MuiInputLabel-shrink {
+    transform: translate(14px, 2px) scale(0.75);
+}
+
+.search .MuiInputLabel-outlined {
+    transform: translate(14px, 13px) scale(1);
+}
+
+.search .MuiOutlinedInput-input {
+    padding: 10.5px 14px;
+}
+
+.cus-auth-input .MuiOutlinedInput-inputMarginDense {
+    padding-top: 30px !important;
+    padding-bottom: 30px !important;
+}
+
+.MuiInputBase-input {
+    font-family: 'BrandonRegular' !important;
+    font-size: 20px !important;
+}
+
+.MuiInputBase-input::placeholder {
+    color: #323232 !important;
+    font-family: 'BrandonRegular' !important;
+    font-weight: 400;
+}
+
+.search-modal .modal-dialog.modal-lg {
+    margin: 0px;
+    max-width: 100% !important;
+}
+
+.cus-mobile-filter .MuiPaper-root.MuiAccordion-root.MuiAccordion-rounded.MuiPaper-elevation1.MuiPaper-rounded {
+    background-color: transparent !important;
+    box-shadow: none !important;
+}
+
+.logo-position {
+    position: absolute;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 0;
+}
+
+.header-search {
+    background: transparent !important;
+    border: none !important;
+    border-bottom: 1px solid black !important;
+    border-radius: 0px !important;
+    box-shadow: none !important;
+}
+
+.header-search-icon {
+    position: absolute;
+    right: 0;
+    top: 8px;
+}
+
+.z-1 {
+    z-index: 1;
+}
+
+.bg-auth {
+    background-image: url('../public/media/images/bg_left_auth.png'), url('../public/media/images/bg_right_auth.png');
+    background-size: contain;
+    background-repeat: no-repeat, no-repeat;
+    background-position: left, right;
+    min-height: 100vh;
+    margin-top: -72px;
+}
+
+.bg-left-auth {
+    position: fixed;
+    left: 0px;
+    width: 300px;
+    top: -72px;
+    z-index: -1;
+}
+
+.bg-right-auth {
+    position: fixed;
+    right: 0px;
+    width: 300px;
+    top: -72px;
+    z-index: -1;
+}
+
+.bg-home {
+    background-image: url('../public/media/images/home.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+    min-height: 800px;
+}
+
+.common-icon {
+    width: 24px;
+    height: 24px;
+}
+
+.captcha-shadow {
+    box-shadow: 0px 40px 40px -24px rgba(28, 58, 169, 0.6);
+    border-radius: 4.17158px;
+    max-width: 304px;
+}
+
+.op-6 {
+    opacity: 0.6;
+}
+
+.pt-90 {
+    padding-top: 90px;
+}
+
+.pt-120 {
+    padding-top: 120px;
+}
+
+.-mb-30 {
+    margin-bottom: -30px;
+}
+
+.ml-135 {
+    margin-left: 135px;
+}
+
+
+.w-30px {
+    width: 30px;
+}
+
+.min-h-36 {
+    min-height: 36px;
+}
+
+.min-h-650 {
+    min-height: 650px;
+}
+
+.font-12 {
+    font-size: 12px;
+}
+
+.font-14 {
+    font-size: 14px;
+}
+
+.font-16 {
+    font-size: 16px;
+}
+
+.font-18 {
+    font-size: 18px;
+}
+
+.font-20 {
+    font-size: 20px;
+}
+
+.font-22 {
+    font-size: 22px;
+}
+
+.font-24 {
+    font-size: 24px;
+}
+
+.font-30 {
+    font-size: 30px;
+}
+
+.font-35 {
+    font-size: 35px;
+}
+
+.font-40 {
+    font-size: 40px;
+}
+
+.font-50 {
+    font-size: 50px;
+}
+
+
+.text-black {
+    color: #000000 !important;
+}
+
+.text-black-2 {
+    color: #323232;
+}
+
+.text-light-gray {
+    color: #787878;
+}
+
+.text-light-gray2 {
+    color: #767676;
+}
+
+
+.bg-light-gray {
+    background-color: #f7f4ef;
+}
+
+.bg-subheader {
+    background-color: #EDD5C0;
+}
+
+.bg-testimonial-box {
+    background-color: #e9d5c2;
+    box-shadow: 0px 30px 5px -5px #adaba6;
+}
+
+
+.border-black {
+    border: 1px solid #000000 !important;
+}
+
+.border-cream {
+    border: 1px solid #DCA878 !important;
+}
+
+.border-black-2 {
+    border: 1px solid #323232;
+}
+
+.border-light-orange {
+    border-bottom: 1px solid #EDD5C0;
+}
+
+
+.br-10 {
+    border-radius: 10px;
+}
+
+.br-20 {
+    border-radius: 20px;
+}
+
+.-mt-10 {
+    margin-top: -10px;
+}
+
+.mh-300 {
+    max-height: 300px;
+}
+
+.cus-auth-btn {
+    border: 1px solid #323232 !important;
+    border-radius: 20px !important;
+    font-size: 24px;
+    font-family: 'BrandonRegular';
+    padding: 25px 35px !important;
+}
+
+.cus-auth-btn:hover {
+    border: 1px solid #323232 !important;
+    background-color: #323232;
+    color: white !important;
+}
+
+.cus-React-btn {
+    font-family: 'BrandonRegular';
+    background: #DCA878 !important;
+    border: 1px solid #DCA878 !important;
+    border-radius: 40px !important;
+    color: white !important;
+    font-size: 30px;
+    padding: 15px 35px !important;
+}
+
+.cus-React-btn:hover {
+    background: white !important;
+    color: #DCA878 !important;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.sticky-header {
+    position: sticky;
+    top: 0px;
+    width: 100%;
+    z-index: 99;
+}
+
+.arrow-position {
+    position: absolute;
+    right: 25px;
+    top: 8px;
+    max-width: 21px;
+}
+
+.sortby .dropdown-toggle::after {
+    display: none;
+}
+
+.sortby .dropdown-menu {
+    border: none;
+    border-radius: 0px;
+}
+
+.sortby .dropdown-menu .dropdown-item {
+    position: relative;
+    font-size: 20px;
+    border-bottom: 1px solid #C4C4C4;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 70px 10px 15px;
+}
+
+.sortby-check {
+    position: absolute;
+    right: 15px;
+    top: 20px;
+}
+
+.filter-style {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+    width: 98%;
+    min-height: 300px;
+    border: 1px solid #edd5c0;
+    background-color: #f7f4ef;
+    padding: 15px;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.size-box {
+    background: #F8F4EF;
+    border: 1px solid #DCA878;
+    min-width: 130px;
+}
+
+.black {
+    background-color: #000000;
+}
+
+.white {
+    background-color: #FFF;
+}
+
+.blue {
+    background-color: #4198CB;
+}
+
+.pink {
+    background-color: #FDBEBA;
+}
+
+.yellow {
+    background-color: #F1F395;
+}
+
+.green {
+    background-color: #8CD16B;
+}
+
+.red {
+    background-color: #D93025;
+}
+
+.orange {
+    background-color: #EB9B37;
+}
+
+.purple {
+    background-color: #A858A4;
+}
+
+.multi {
+    background-color: #F8F4EF;
+}
+
+.brown {
+    background-color: #D0893B;
+}
+
+
+.cus-checkbox span.MuiTypography-root.MuiFormControlLabel-label.MuiTypography-body1 {
+    font-family: 'BrandonRegular';
+    font-size: 20px;
+}
+
+.cus-checkbox .MuiSvgIcon-root {
+    fill: black;
+}
+
+.cus-radio .MuiRadio-colorSecondary.Mui-checked {
+    color: #000000;
+}
+
+.cus-radio span.MuiTypography-root.MuiFormControlLabel-label.MuiTypography-body1 {
+    font-family: 'AvenirRegular';
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.cus-calendar+div {
+    position: inherit !important;
+    transform: none !important;
+}
+
+.cus-calendar-input .rmdp-container input {
+    display: none !important;
+}
+
+.active-product {
+    position: absolute;
+    right: 30px;
+    top: 30px;
+    width: 12px;
+    height: 12px;
+    background: #74F379;
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+    border-radius: 50px;
+}
+
+.inactive-product {
+    position: absolute;
+    right: 30px;
+    top: 30px;
+    width: 12px;
+    height: 12px;
+    background: #F37474;
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+    border-radius: 50px;
+}
+
+.onReact-product {
+    position: absolute;
+    right: 30px;
+    top: 30px;
+    width: 12px;
+    height: 12px;
+    background: #dca878;
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+    border-radius: 50px;
+}
+
+/****************************custom radio button start*******************************/
+.filterRadio [type="radio"]:checked,
+.filterRadio [type="radio"]:not(:checked) {
+    position: absolute;
+    left: -9999px;
+}
+
+.filterRadio [type="radio"]:checked+label,
+.filterRadio [type="radio"]:not(:checked)+label {
+    position: relative;
+    padding-left: 28px;
+    cursor: pointer;
+    line-height: 20px;
+    display: inline-block;
+    color: #000000;
+}
+
+.filterRadio [type="radio"]:checked+label:before,
+.filterRadio [type="radio"]:not(:checked)+label:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 18px;
+    height: 18px;
+    border: 1px solid #000000;
+    border-radius: 100%;
+    background: transparent;
+}
+
+.filterRadio [type="radio"]:checked+label:after,
+.filterRadio [type="radio"]:not(:checked)+label:after {
+    content: '';
+    width: 12px;
+    height: 12px;
+    background: #000000;
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    border-radius: 100%;
+    transition: all 0.2s ease;
+}
+
+.filterRadio [type="radio"]:not(:checked)+label:after {
+    opacity: 0;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+}
+
+.filterRadio [type="radio"]:checked+label:after {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+
+/****************************custom radio button end*******************************/
+
+
+/***************************************sidebar start*********************************/
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 99;
+    top: -14px;
+    left: 0;
+    background-color: #E0DDD9;
+    overflow-x: hidden;
+    transition: 0.5s;
+    margin-top: 72px;
+}
+
+.filter-sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 99;
+    top: 0px;
+    right: 0;
+    background-color: #E0DDD9;
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+/* Position and sizing of burger button */
+.bm-burger-button {
+    position: fixed;
+    width: 32px;
+    height: 30px;
+    left: 15px;
+    top: 15px;
+}
+
+/* Color/shape of burger icon bars */
+.bm-burger-bars {
+    background: #323232;
+    border-radius: 50px;
+    height: 14% !important;
+}
+
+/* Color/shape of burger icon bars on hover*/
+.bm-burger-bars-hover {
+    background: #000000;
+}
+
+/* Position and sizing of clickable cross button */
+.bm-cross-button {
+    height: 24px;
+    width: 24px;
+}
+
+/* Color/shape of close button cross */
+.bm-cross {
+    background: #bdc3c7;
+}
+
+/*
+  Sidebar wrapper styles
+  Note: Beware of modifying this element as it can break the animations - you should not need to touch it in most cases
+  */
+.bm-menu-wrap {
+    position: fixed;
+    height: 100%;
+}
+
+/* General sidebar styles */
+.bm-menu {
+    background: #E0DDD9;
+    padding: 0;
+    font-size: 1.15em;
+}
+
+/* Morph shape necessary with bubble or elastic */
+.bm-morph-shape {
+    fill: #373a47;
+}
+
+/* Wrapper for item list */
+.bm-item-list {
+    color: #000000;
+}
+
+/* Individual item */
+.bm-item {
+    display: inline-block;
+    width: 100%;
+}
+
+/* Styling of overlay */
+.bm-overlay {
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.bm-menu .bm-item.active {
+    background-color: #C4C4C4;
+}
+
+/***************************************sidebar end************************************/
+
+/***************************Loader style start ************************************/
+
+.mesh-loader {
+    overflow: hidden;
+    height: inherit;
+    width: inherit;
+}
+
+.mesh-loader .circle {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    border-radius: 50%;
+    margin: -15px;
+    -webkit-animation: mesh 3s ease-in-out infinite -1.5s;
+    animation: mesh 3s ease-in-out infinite -1.5s;
+}
+
+.mesh-loader .circle-1 {
+    background-color: #edd5c0;
+}
+
+.mesh-loader .circle-2 {
+    background-color: #d8cba9;
+}
+
+.mesh-loader .circle-3 {
+    background-color: #c9c9c9;
+}
+
+.mesh-loader .circle-4 {
+    background-color: #dca878;
+}
+
+.mesh-loader>div .circle:last-child {
+    -webkit-animation-delay: 0s;
+    animation-delay: 0s;
+}
+
+.mesh-loader>div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+.mesh-loader>div:last-child {
+    -webkit-transform: React(90deg);
+    -ms-transform: React(90deg);
+    transform: React(90deg);
+}
+
+@keyframes mesh {
+    0% {
+        -webkit-transform-origin: 50% -100%;
+        transform-origin: 50% -100%;
+        -webkit-transform: React(0);
+        transform: React(0);
+    }
+
+    50% {
+        -webkit-transform-origin: 50% -100%;
+        transform-origin: 50% -100%;
+        -webkit-transform: React(360deg);
+        transform: React(360deg);
+    }
+
+    50.1% {
+        -webkit-transform-origin: 50% 200%;
+        transform-origin: 50% 200%;
+        -webkit-transform: React(0deg);
+        transform: React(0deg);
+    }
+
+    100% {
+        -webkit-transform-origin: 50% 200%;
+        transform-origin: 50% 200%;
+        -webkit-transform: React(360deg);
+        transform: React(360deg);
+    }
+}
+
+/***************************Loader style end ************************************/
+
+@media screen and (max-width: 992px) {
+    .bg-auth {
+        background-size: cover;
+    }
+
+    .bg-left-auth {
+        position: fixed;
+        left: 0px;
+        width: 100%;
+        top: -72px;
+        z-index: -1;
+    }
+    
+    .bg-right-auth {
+        position: fixed;
+        right: 0px;
+        width: 0px;
+        top: -72px;
+        z-index: -1;
+    }
+
+    .cus-bg-white {
+        background-color: white;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .cus-radio span.MuiTypography-root.MuiFormControlLabel-label.MuiTypography-body1 {
+        font-family: 'AvenirRegular';
+        font-size: 16px;
+        font-weight: bold;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .cus-col-w-20 {
+        width: 20% !important;
+    }
+}
+
+/************************** Search Page Style Start *****************************/
+
+.border-y-search-page {
+    --bs-text-opacity: 1;
+    border-top: .1rem solid rgba(var(--bs-black-rgb), var(--bs-text-opacity)) !important;
+    border-bottom: .1rem solid rgba(var(--bs-black-rgb), var(--bs-text-opacity)) !important;
+}
+
+.min-h-258 {
+    min-height: 258px;
+}
+
+/************************** Search Page Style End *******************************/
+
+
+.clear-all {
+    position: absolute;
+    bottom: 10px;
+    align-items: center;
+    justify-content: center;
+    left: 0;
+    right: 0;
+    display: flex;
+}

@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'InterMedium';
+    src: url('fonts/InterMedium.eot');
+    src: url('fonts/InterMedium.eot') format('embedded-opentype'),
+         url('fonts/InterMedium.woff2') format('woff2'),
+         url('fonts/InterMedium.woff') format('woff'),
+         url('fonts/InterMedium.ttf') format('truetype'),
+         url('fonts/InterMedium.svg#InterMedium') format('svg');
+}

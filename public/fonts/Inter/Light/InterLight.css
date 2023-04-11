@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'InterLight';
+    src: url('fonts/InterLight.eot');
+    src: url('fonts/InterLight.eot') format('embedded-opentype'),
+         url('fonts/InterLight.woff2') format('woff2'),
+         url('fonts/InterLight.woff') format('woff'),
+         url('fonts/InterLight.ttf') format('truetype'),
+         url('fonts/InterLight.svg#InterLight') format('svg');
+}
